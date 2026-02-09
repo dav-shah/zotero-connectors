@@ -135,6 +135,10 @@ The background process registers message listeners in [*messaging.js*](https://g
 The injected scripts monkey-patch methods in *messaging_injected.js*([BrowserExt](https://github.com/zotero/zotero-connectors/blob/e1a16c8ad2e17c6893554c3f376384e18182202d/src/browserExt/messaging_inject.js)/[Safari](https://github.com/zotero/zotero-connectors/blob/e1a16c8ad2e17c6893554c3f376384e18182202d/src/safari/messaging_inject.js))
 `Zotero.Messaging` class also provides a way to send messages to the background process and add message listeners.
 
+## Documentation
+
+For a detailed technical report on how the connector extracts PDFs from journal article webpages, see [PDF_EXTRACTION_REPORT.md](PDF_EXTRACTION_REPORT.md).
+
 ## Contact
 
 If you have any questions about developing Zotero Connectors you can join the discussion in the
